@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Medical Terminology GPT",
+  "name_for_model": "exam_wiz_gpt",
+  "description_for_human": "A specialized GPT that references four Medical Terminology chapters only.",
+  "description_for_model": "Plugin that provides definitions exclusively from four Medical Terminology chapters.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://dannyplugmein.github.io/exam-wiz/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://dannyplugmein.github.io/exam-wiz/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "https://example.com/legal"
+}
